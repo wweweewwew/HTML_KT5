@@ -1,0 +1,218 @@
+* {
+  font-family: "Outfit", sans-serif;
+  transition: 0.5s ease-in-out;
+}
+
+body {
+  margin-top: 2%;
+  background-color: #dee33e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  zoom: 75%;
+}
+
+h1 {
+  width: 100%;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+h2 {
+  margin-top: 0;
+  width: 100%;
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+::placeholder {
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+input {
+  border: none;
+  border-radius: 8px;
+  background-color: #fafafa;
+  padding: 4%;
+  margin: 0;
+  outline: none;
+}
+
+input:focus,
+input:hover {
+  outline: #9fa324;
+  background-color: #d8d8d8;
+}
+
+input[type="checkbox"] {
+  border-radius: 0;
+  width: 5%;
+  margin-right: 2%;
+  accent-color: #dee33e;
+  border: 1px solid grey;
+  border-radius: 100%;
+}
+
+input[type="checkbox"]:focus {
+  accent-color: #dee33e;
+}
+
+input[type="password"] {
+  font-family: Verdana;
+  letter-spacing: 0.125em;
+}
+
+a {
+  color: #9fa324;
+  font-weight: 500;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.logo,
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  font-size: 1rem;
+  background-color: #dee33e;
+  font-weight: 700;
+  padding: 8px;
+  border: none;
+  border-radius: 8px;
+  height: 56px;
+  margin-bottom: 16px;
+}
+
+button:hover {
+  background-color: #9fa324;
+  transform: scale(1.1);
+}
+
+button > img,
+button > span {
+  vertical-align: middle;
+}
+
+span {
+  text-align: center;
+}
+
+.logo div {
+  width: 197px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo img {
+  width: 144px;
+}
+
+.elem_title {
+  font-size: 32px;
+  line-height: 44, 8px;
+  text-align: center;
+}
+
+.login {
+  width: 527px;
+  height: 600px;
+  padding: 40.5px;
+  background-color: #fff;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.NameAndLastname {
+  width: 100%;
+  margin-bottom: 16px;
+  height: max-content;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.NameAndLastname input {
+  width: 210px;
+  margin: 0;
+}
+
+.emailPass {
+  width: 100%;
+  margin-bottom: 16px;
+  height: max-content;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.emailPass input {
+  margin-bottom: 16px;
+}
+
+.agree {
+  margin-bottom: 16px;
+  margin-inline: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.signUpWith {
+  margin-bottom: 16px;
+  margin-inline: 0;
+  color: #718096;
+  display: flex;
+  flex-direction: row;
+}
+
+.signUpWith hr {
+  width: 148px;
+  background-color: #eeeff2;
+  border: none;
+  border-radius: 15%;
+  size: 1px;
+}
+
+.twoButton {
+  width: 100%;
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.twoButton button {
+  width: 216.5px;
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  background-color: #fff;
+  border: solid 1px #eeeff2;
+}
+
+.twoButton button:hover {
+  transition: scale(1, 1);
+  background-color: #e7e7e7;
+}
+
+.contentLogin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

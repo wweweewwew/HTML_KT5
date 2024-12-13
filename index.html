@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+   >
+  </head>
+  <body>
+    <header class="logo">
+      <div>
+        <img src="/image/Logo.png" alt="Логотип компании">
+        <h1>Lorem Ipsum</h1>
+      </div>
+    </header>
+    <main>
+      <form class="login" action="/">
+        <h2>Create your ID</h2>
+        <section class="name">
+          <div class="NameAndLastname">
+            <input type="text" placeholder="First name">
+            <input type="text" placeholder="Last name">
+          </div>
+          <div class="emailPass">
+            <input type="email" placeholder="Email">
+            <input type="password" placeholder="Password">
+          </div>
+          <div class="agree">
+            <input id="checkbox" type="checkbox" required >
+            <label for="checkbox">By proceeding, you agree to the Terms and Conditions</label>
+          </div>
+        </section>
+        <button type="submit">
+          <span>Sign up with email</span>
+        </button>
+        <section class="contentLogin">
+          <div class="signUpWith">
+            <hr>Or Signup with<hr>
+          </div>
+          <div class="twoButton">
+            <button type="button"><img src="/image/Google.png" alt="Регистрация с помошью Google">
+              <span>Google</span>
+            </button>
+            <button type="button"><img src="/image/apple.svg" alt="Регистрация с помошью Apple">
+              <span>Apple</span>
+            </button>
+          </div>
+          <span>Already have an account? <a href="">Login Now</a></span>
+        </section>
+      </form>
+    </main>
+  </body>
+</html>
